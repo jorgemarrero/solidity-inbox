@@ -2,5 +2,9 @@
   "name": "inbox",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:jorgemarrero/solidity-inbox.git",
+  "dependencies": {
+    "solc": "^0.4.20"
+  }
 }
