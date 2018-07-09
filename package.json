@@ -4,7 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "repository": "git@github.com:jorgemarrero/solidity-inbox.git",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
-    "solc": "^0.4.20"
+    "ganache-cli": "^6.1.5",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.20",
+    "web3": "1.0.0-beta.26"
   }
 }
